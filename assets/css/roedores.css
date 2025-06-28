@@ -1,0 +1,66 @@
+main {
+	article {
+		box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+		background-color: var(--secondary-bg);
+		border-radius: 0.5em;
+		padding-bottom: 2rem;
+
+		hgroup {
+			padding-block: 1.25em;
+		}
+
+		>:not(img) {
+			padding-inline: 2rem;
+		}
+
+		>p {
+			padding-top: 2em;
+		}
+	}
+
+	@media screen and (768px <=width<1280px) {
+		article {
+			grid-column: span 6;
+		}
+	}
+
+	@media screen and (1280px <=width) {
+		section {
+			&:nth-of-type(1) {
+				grid-template-areas:
+					"_1 _1 _1"
+					"_2 _3 _4";
+			}
+
+			&:nth-of-type(2) {
+				grid-template-areas:
+					"_1 _1 _1"
+					"_2 _3 .";
+			}
+
+			&:nth-of-type(3) {
+				grid-template-areas:
+					"_1 _1 _1"
+					"_2 _3 .";
+			}
+
+			&:nth-of-type(4) {
+				grid-template-areas:
+					"_1 _1 _1"
+					"_2 _3 .";
+			}
+
+			&:nth-of-type(5) {
+				grid-template-areas:
+					"_1 _1 _1"
+					"_2 _3 _4";
+			}
+
+			&:nth-of-type(6) {
+				grid-template-areas:
+					"_1 _1 _1"
+					"_2 _3 .";
+			}
+		}
+	}
+}
