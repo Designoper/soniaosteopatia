@@ -2,6 +2,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
+    color: #207399;
 
     nav {
         padding: 0.75rem 10vw;
@@ -80,7 +81,7 @@ header {
 
     @media screen and (1024px <=width) {
         nav {
-            padding: 0.5em 7.5vw;
+            padding: 1.5em 7.5vw;
 
             [href="#main"] {
                 display: initial;
@@ -98,7 +99,7 @@ header {
             }
 
             >[href="./index.html"] {
-                width: 3rem;
+                width: 5rem;
             }
 
             >details {
