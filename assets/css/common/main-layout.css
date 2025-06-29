@@ -48,6 +48,10 @@ main {
 		&:has(>div) {
 			align-items: start;
 		}
+
+		p {
+			text-indent: 50px;
+		}
 	}
 
 	@media screen and (width<=768px) {

@@ -28,3 +28,8 @@ main {
 		filter: brightness(40%);
 	}
 }
+
+[aria-current="page"] {
+	color: green;
+	background-color: yellow;
+}

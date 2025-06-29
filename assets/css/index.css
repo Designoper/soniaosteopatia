@@ -62,7 +62,8 @@ main {
                 grid-template-areas:
                     "_1 _1 _1"
                     "_2 . ."
-                    "_3 _4 _5";
+                    "_3 _4 _5"
+                    "_6 . .";
             }
 
             &:nth-of-type(2) {
