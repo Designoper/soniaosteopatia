@@ -6,7 +6,7 @@ html {
 	--text: hsl(0, 0%, 0%);
 	--text-light: hsl(0, 0%, 0%);
 
-	color: var(--text-light);
+	color: #003f7e;
 	background-color: var(--primary-bg);
 	scrollbar-color: var(--secondary-bg) var(--primary-bg);
 }
@@ -20,7 +20,8 @@ h1 {
 }
 
 :is(h2, h3, strong) {
-	color: var(--text);
+	/* color:#207399; */
+	color: #003f7e;
 }
 
 main {
