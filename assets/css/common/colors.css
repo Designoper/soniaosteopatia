@@ -16,7 +16,7 @@ html {
 }
 
 h1 {
-	color: var(--primary-bg);
+	color: black;
 }
 
 :is(h2, h3, strong) {

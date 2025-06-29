@@ -2,6 +2,7 @@ main {
 	display: grid;
 	gap: 5rem 0;
 	padding-bottom: 7rem;
+	padding-top: 3rem;
 
 	>img {
 		anchor-name: --banner-img;
@@ -9,11 +10,11 @@ main {
 	}
 
 	h1 {
-		padding-inline: 10vw;
+		/* padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
 		justify-self: anchor-center;
-		align-self: anchor-center;
+		align-self: anchor-center; */
 	}
 
 	div {
@@ -72,7 +73,7 @@ main {
 		}
 
 		h1 {
-			padding-inline: 7.5vw;
+			/* padding-inline: 7.5vw; */
 		}
 
 		section {
@@ -82,7 +83,7 @@ main {
 
 	@media screen and (1280px <=width) {
 		h1 {
-			padding-inline: 7.5vw;
+			/* padding-inline: 7.5vw; */
 		}
 
 		section {
