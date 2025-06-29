@@ -2,7 +2,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    color: #207399;
+    /* color: #195774; */
+    color: #19629e;
 
     nav {
         padding: 0.75rem 10vw;
@@ -118,7 +119,8 @@ header {
                     white-space: pre-line;
 
                     &:hover {
-                        background-color: var(--background-text);
+                        /* background-color: var(--background-text);
+                        color: #1b73bb; */
                     }
                 }
 

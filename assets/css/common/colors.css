@@ -1,13 +1,13 @@
 html {
 	--primary-bg: hsl(180, 42%, 93%);
 	--secondary-bg: white;
-	--background-text: hsl(from var(--secondary-bg) h s calc(l/1.25));
+	--background-text: hsl(from var(--secondary-bg) h s calc(l/1.10));
 	--terciary-bg: hsl(180, 100%, 16%);
 	--text: hsl(0, 0%, 0%);
-	--text-light: hsl(0, 0%, 0%);
+	--text-light: hsl(0, 0%, 20%);
 
-	color: #003f7e;
-	background-color: var(--primary-bg);
+	color: var(--text-light);
+	background-color: rgb(244, 251, 255);
 	scrollbar-color: var(--secondary-bg) var(--primary-bg);
 }
 
@@ -21,7 +21,7 @@ h1 {
 
 :is(h2, h3, strong) {
 	/* color:#207399; */
-	color: #003f7e;
+	color: var(--text-light);
 }
 
 main {
@@ -31,6 +31,6 @@ main {
 }
 
 [aria-current="page"] {
-	color: green;
-	background-color: yellow;
+	color: white;
+    background-color: rgba(10, 118, 172, 0.719);
 }
