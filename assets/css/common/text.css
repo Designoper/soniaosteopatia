@@ -21,7 +21,7 @@ h3 {
 
 main {
 	ul {
-		list-style: decimal inside;
+		list-style: disc inside;
 	}
 }
 
