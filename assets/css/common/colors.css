@@ -4,10 +4,10 @@ html {
 	--background-text: hsl(from var(--secondary-bg) h s calc(l/1.10));
 	--terciary-bg: hsl(180, 100%, 16%);
 	--text: hsl(0, 0%, 0%);
-	--text-light: hsl(0, 0%, 20%);
+	--text-light: #4F603E;
 
 	color: var(--text-light);
-	background-color: rgb(244, 251, 255);
+	background-color: #EBF1EE;
 	scrollbar-color: var(--secondary-bg) var(--primary-bg);
 }
 

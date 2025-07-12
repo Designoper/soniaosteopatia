@@ -2,6 +2,12 @@
 	navigation: auto;
 }
 
+@font-face {
+	font-family: 'Avenir';
+	src: url('../../fonts/private/original/avenir-next-lt-pro-regular/avenir-next-lt-pro-regular.otf') format('otf');
+	/* font-weight: 100; */
+}
+
 :is(*, *::before, *::after) {
 	margin: 0;
 	padding: 0;
@@ -21,7 +27,7 @@
 }
 
 html {
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	/* font-family: sans-serif; */
 	interpolate-size: allow-keywords;
 	scrollbar-gutter: stable;
