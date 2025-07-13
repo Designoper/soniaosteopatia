@@ -14,7 +14,7 @@ header {
 
         figcaption {
             display: grid;
-            gap: 1em;
+            gap: 0.5em;
         }
     }
 
@@ -31,7 +31,6 @@ header {
         }
 
         >[href="./index.html"] {
-
             img {
                 width: 2.5rem;
             }
@@ -116,7 +115,9 @@ header {
             }
 
             >[href="./index.html"] {
-                /* width: 5rem; */
+                img {
+                    width: 5rem;
+                }
             }
 
             >details {
