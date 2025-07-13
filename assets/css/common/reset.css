@@ -22,7 +22,6 @@
 
 html {
 	font-family: 'source-sans-3', sans-serif;
-	/* font-family: sans-serif; */
 	interpolate-size: allow-keywords;
 	scrollbar-gutter: stable;
 }

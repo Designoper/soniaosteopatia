@@ -15,5 +15,13 @@ main {
                 margin-bottom: 1.5em;
             }
         }
+
+        &:nth-of-type(2) {
+            grid-template-areas:
+                "_1 _1 _1"
+                "_2 _2 _2"
+                "_3 _3 _3"
+                "_4 _4 _4";
+        }
     }
 }
