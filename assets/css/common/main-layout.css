@@ -31,8 +31,10 @@ main {
 		padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
-		justify-self: anchor-center;
-		align-self: anchor-center;
+		justify-self: anchor-left;
+		bottom: anchor(bottom);
+		margin-bottom: 1em;
+		font-family: 'noto-sans-extralight', sans-serif;
 	}
 
 	div {
