@@ -1,26 +1,22 @@
 @font-face {
 	font-family: 'noto-sans-light';
 	src: url('../../fonts/private/original/noto-sans/NotoSans-Light.ttf') format('truetype');
-	/* font-weight: 300; */
 }
 
 @font-face {
 	font-family: 'noto-sans-extralight';
 	src: url('../../fonts/private/original/noto-sans/NotoSans-ExtraLight.ttf') format('truetype');
-	/* font-weight: 300; */
 }
 
 @font-face {
 	font-family: 'source-sans-3';
 	src: url('../../fonts/private/original/source-sans-3/SourceSans3-Regular.ttf') format('truetype');
-	/* font-weight: 300; */
 }
 
 main {
 	display: grid;
 	gap: 5rem 0;
 	padding-bottom: 7rem;
-	/* padding-top: 3rem; */
 
 	>img {
 		anchor-name: --banner-img;
@@ -34,6 +30,16 @@ main {
 		justify-self: anchor-left;
 		bottom: anchor(bottom);
 		margin-bottom: 1em;
+		font-family: 'noto-sans-extralight', sans-serif;
+	}
+
+	h1+p {
+		padding-inline: 10vw;
+		position: absolute;
+		position-anchor: --banner-img;
+		right: anchor(right);
+		top: anchor(top);
+		margin-top: 1em;
 		font-family: 'noto-sans-extralight', sans-serif;
 	}
 
