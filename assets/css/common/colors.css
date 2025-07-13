@@ -1,7 +1,7 @@
 html {
 	--primary-bg: hsl(180, 42%, 93%);
 	--secondary-bg: white;
-	--background-text: hsl(from var(--secondary-bg) h s calc(l/1.10));
+	--background-text: hsl(from var(--text-light) h s calc(l/0.8));
 	--terciary-bg: hsl(180, 100%, 16%);
 	--text: hsl(0, 0%, 0%);
 	--text-light: #4F603E;
@@ -32,5 +32,5 @@ main {
 
 [aria-current="page"] {
 	color: white;
-    background-color: rgba(10, 118, 172, 0.719);
+    background-color: var(--background-text);
 }

@@ -1,3 +1,21 @@
+@font-face {
+	font-family: 'noto-sans-light';
+	src: url('../../fonts/private/original/noto-sans/NotoSans-Light.ttf') format('truetype');
+	/* font-weight: 300; */
+}
+
+@font-face {
+	font-family: 'noto-sans-extralight';
+	src: url('../../fonts/private/original/noto-sans/NotoSans-ExtraLight.ttf') format('truetype');
+	/* font-weight: 300; */
+}
+
+@font-face {
+	font-family: 'source-sans-3';
+	src: url('../../fonts/private/original/source-sans-3/SourceSans3-Regular.ttf') format('truetype');
+	/* font-weight: 300; */
+}
+
 main {
 	display: grid;
 	gap: 5rem 0;

@@ -2,12 +2,6 @@
 	navigation: auto;
 }
 
-@font-face {
-	font-family: 'noto-sans';
-	src: url('../../fonts/private/original/noto-sans/NotoSans-Thin.ttf') format('truetype');
-	/* font-weight: 300; */
-}
-
 :is(*, *::before, *::after) {
 	margin: 0;
 	padding: 0;
@@ -27,7 +21,7 @@
 }
 
 html {
-	font-family: 'noto-sans', sans-serif;
+	font-family: 'source-sans-3', sans-serif;
 	/* font-family: sans-serif; */
 	interpolate-size: allow-keywords;
 	scrollbar-gutter: stable;
