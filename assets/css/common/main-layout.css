@@ -24,6 +24,8 @@ main {
 	}
 
 	h1 {
+		white-space: pre-line;
+		text-align: left;
 		padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
@@ -34,6 +36,9 @@ main {
 	}
 
 	h1+p {
+		white-space: pre-line;
+		text-align: center;
+		font-size: 1.75em;
 		padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
