@@ -13,7 +13,6 @@ header {
         grid-template-columns: repeat(2, auto);
         font-family: 'noto-sans-light', sans-serif;
 
-
         figcaption {
             display: grid;
             gap: 0.5em;
