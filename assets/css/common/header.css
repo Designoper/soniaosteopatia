@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    color: #6D8556;
+    color: var(--header-text);
 
     figure {
         display: grid;
@@ -40,7 +40,7 @@ header {
             width: 1.5rem;
 
             path {
-                stroke: var(--text-light);
+                stroke: var(--header-text);
                 stroke-width: 72px;
             }
 

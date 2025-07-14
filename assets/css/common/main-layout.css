@@ -78,7 +78,6 @@ main {
 		display: grid;
 		gap: 2.5rem 3.25rem;
 		padding-inline: 10vw;
-		/* column-rule: 1.5px solid #ccc; */
 
 		&:has(>div) {
 			align-items: start;

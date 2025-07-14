@@ -1,16 +1,17 @@
 html {
 	--primary-bg: #EBF1EE;
 	--secondary-bg: hsl(0, 0%, 100%);
-	--background-text: hsl(from var(--text-light) h s calc(l/0.8));
-	--text-light: hsl(90, 22%, 31%);
+	--background-text: hsl(from var(--regular-text) h s calc(l/0.8));
+	--regular-text: hsl(90, 22%, 31%);
+	--header-text: hsl(91, 21%, 43%);
 
-	color: var(--text-light);
+	color: var(--regular-text);
 	background-color: var(--primary-bg);
-	scrollbar-color: #6d8557 var(--primary-bg);
+	scrollbar-color: var(--header-text) var(--primary-bg);
 }
 
 :focus-visible {
-	outline: var(--text-light) solid 4px;
+	outline: var(--regular-text) solid 4px;
 }
 
 h1,
