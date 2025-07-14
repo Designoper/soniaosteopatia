@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'noto-sans-light';
-	src: url('../../fonts/public/noto-sans/noto-sans-light.woff2') format('woff2');
-}
-
-@font-face {
 	font-family: 'noto-sans-extralight';
 	src: url('../../fonts/public/noto-sans/noto-sans-extralight.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'source-sans-3';
-	src: url('../../fonts/public/source-sans-3/source-sans-3.woff2') format('woff2');
+	font-family: 'noto-sans-light';
+	src: url('../../fonts/public/noto-sans/noto-sans-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'source-sans-3-regular';
+	src: url('../../fonts/public/source-sans-3/source-sans-3-regular.woff2') format('woff2');
 }
 
 main {
