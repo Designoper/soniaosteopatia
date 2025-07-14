@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: 'source-sans-3';
-	src: url('../../fonts/private/original/source-sans-3/SourceSans3-Regular.ttf') format('truetype');
+	src: url('../../fonts/public/source-sans-3/source-sans-3.woff2') format('woff2');
 }
 
 main {
