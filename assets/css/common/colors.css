@@ -15,21 +15,10 @@ html {
 
 h1,
 h1+p {
-	color: white;
+	color: var(--secondary-bg);
 }
 
-main {
-	>img {
-		/* filter: brightness(40%); */
-	}
-}
-
-details:has([aria-current="page"]) summary {
-	color: white;
-	background-color: var(--background-text);
-}
-
-[aria-current="page"] {
-	color: white;
+:is(details:has([aria-current="page"]) summary, [aria-current="page"]) {
+	color: var(--secondary-bg);
 	background-color: var(--background-text);
 }
