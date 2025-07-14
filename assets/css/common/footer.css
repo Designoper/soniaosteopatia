@@ -3,7 +3,8 @@ footer {
     gap: 3em 2em;
     padding: 2em 10vw;
     align-items: flex-start;
-    /* background-color: var(--secondary-bg); */
+    color: var(--primary-bg);
+    background-color: var(--regular-text);
 
     h2 {
         text-align: left;
