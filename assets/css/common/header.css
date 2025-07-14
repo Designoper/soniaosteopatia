@@ -6,7 +6,6 @@ header {
 
     figure {
         display: grid;
-        flex-wrap: nowrap;
         gap: 1em;
         align-items: center;
         grid-template-columns: repeat(2, auto);
