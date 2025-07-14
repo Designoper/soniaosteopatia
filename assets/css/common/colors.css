@@ -1,5 +1,5 @@
 html {
-	--primary-bg: #EBF1EE;
+	--primary-bg: hsl(150, 18%, 93%);
 	--secondary-bg: hsl(0, 0%, 100%);
 	--background-text: hsl(from var(--regular-text) h s calc(l/0.8));
 	--regular-text: hsl(90, 22%, 31%);
