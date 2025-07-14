@@ -49,7 +49,7 @@ header {
             width: 1.5rem;
 
             path {
-                stroke: var(--text);
+                stroke: var(--text-light);
                 stroke-width: 72px;
             }
 
