@@ -143,13 +143,13 @@ header {
                 :is(summary, a) {
                     padding: 0.5em 0.75em;
                     transition: background-color 0.35s;
-                    transition: transform 0.35s;
+                    /* transition: transform 0.35s; */
                     border-radius: 0.2em;
                     white-space: pre-line;
 
-                    &:hover {
+                    /* &:hover {
                         transform: scale(112%);
-                    }
+                    } */
                 }
 
                 details {
