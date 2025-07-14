@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'noto-sans-light';
-	src: url('../../fonts/private/original/noto-sans/NotoSans-Light.ttf') format('truetype');
+	src: url('../../fonts/public/noto-sans/noto-sans-light.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'noto-sans-extralight';
-	src: url('../../fonts/private/original/noto-sans/NotoSans-ExtraLight.ttf') format('truetype');
+	src: url('../../fonts/public/noto-sans/noto-sans-extralight.woff2') format('woff2');
 }
 
 @font-face {
