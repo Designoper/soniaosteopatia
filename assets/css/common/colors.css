@@ -1,12 +1,12 @@
 html {
-	--primary-bg: hsl(180, 42%, 93%);
-	--secondary-bg: white;
+	--primary-bg: #EBF1EE;
+	--secondary-bg: hsl(0, 0%, 100%);
 	--background-text: hsl(from var(--text-light) h s calc(l/0.8));
-	--text-light: #4F603E;
+	--text-light: hsl(90, 22%, 31%);
 
 	color: var(--text-light);
-	background-color: #EBF1EE;
-	scrollbar-color: #6D8556 var(--primary-bg);
+	background-color: var(--primary-bg);
+	scrollbar-color: #6d8557 var(--primary-bg);
 }
 
 :focus-visible {
@@ -16,10 +16,6 @@ html {
 h1,
 h1+p {
 	color: white;
-}
-
-:is(h2, h3, strong) {
-	color: var(--text-light);
 }
 
 main {
