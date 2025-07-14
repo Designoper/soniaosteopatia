@@ -16,14 +16,6 @@ header {
             display: grid;
             gap: 0.5em;
         }
-
-        div:first-of-type {
-            /* font-size: 2.15rem; */
-        }
-
-        div:last-of-type {
-            /* font-size: 1.75rem; */
-        }
     }
 
     nav {
