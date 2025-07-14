@@ -21,7 +21,6 @@ h1+p {
 }
 
 :is(h2, h3, strong) {
-	/* color:#207399; */
 	color: var(--text-light);
 }
 
