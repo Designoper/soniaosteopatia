@@ -13,6 +13,10 @@
 	src: url('../../fonts/public/source-sans-3/source-sans-3-regular.woff2') format('woff2');
 }
 
+@view-transition {
+	navigation: auto;
+}
+
 main {
 	display: grid;
 	gap: 5rem 0;

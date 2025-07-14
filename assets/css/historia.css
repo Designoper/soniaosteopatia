@@ -4,50 +4,10 @@ main {
             h3 {
                 margin: 1.25em 0;
             }
-
-            /* img {
-                width: 65%;
-                margin: auto;
-                clip-path: circle(50%);
-            } */
-        }
-
-        &:nth-of-type(3) {
-            article {
-                border-radius: 0.5em;
-                overflow: hidden;
-                box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-            }
-
-            div {
-                gap: 1.5em;
-                justify-items: center;
-                padding: 2em;
-            }
-
-            a {
-                padding: 1em;
-                border-radius: 0.5em;
-                transition: transform 0.5s;
-
-                &:hover {
-                    transform: scale(1.07);
-                }
-            }
         }
 
         @media screen and (768px <=width<1280px) {
             &:nth-of-type(2) {
-                article {
-                    grid-column: span 6;
-
-                    &:last-of-type {
-                        grid-column: 4/-4;
-                    }
-                }
-            }
-
-            &:nth-of-type(3) {
                 article {
                     grid-column: span 6;
                 }
