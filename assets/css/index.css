@@ -1,4 +1,8 @@
 main {
+    h1+p {
+        color: var(--regular-text);
+    }
+
     section {
         img {
             border-radius: 2em;
