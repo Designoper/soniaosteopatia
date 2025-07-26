@@ -124,6 +124,11 @@ main {
 			padding-inline: 7.5vw;
 		}
 
+		h1+p {
+			padding-inline: 7.5vw;
+
+		}
+
 		section {
 			padding-inline: 7.5vw;
 			grid-template-columns: repeat(3, 1fr);

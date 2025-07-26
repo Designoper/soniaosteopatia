@@ -2,10 +2,39 @@ main {
 	padding-top: 4em;
 
 	h1 {
-		color: black;
+		color: var(--regular-text);
 		position: static;
 		margin-bottom: 0;
 		text-align: center;
+	}
+
+	img {
+		border-radius: 4em;
+	}
+
+	figcaption {
+		white-space: pre-line;
+		text-align: left;
+		margin-left: 2em;
+	}
+
+	span {
+		&:nth-of-type(1) {
+			font-size: x-large;
+			font-weight: bold;
+
+			&::after {
+				content: "";
+				display: block;
+				height: 0.1em;
+				background-color: var(--regular-text);
+				margin-bottom: -1em;
+			}
+		}
+
+		&:nth-of-type(2) {
+			font-size: smaller;
+		}
 	}
 
 	@media screen and (1280px <=width) {
@@ -13,8 +42,18 @@ main {
 			&:nth-of-type(1) {
 				grid-template-areas:
 					"_1 _1 _1"
-					"_2 _3 _4"
-					"_5 _6 _7";
+					"_3 _4 _2";
+
+				img {
+					/* height: 80%; */
+					/* align-self: center; */
+				}
+
+				h2 {
+					margin-bottom: 1em;
+				}
+
+
 			}
 		}
 	}
