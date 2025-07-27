@@ -66,6 +66,46 @@ main {
 			>:nth-child(14) {
 				grid-area: _14;
 			}
+
+			>:nth-child(15) {
+				grid-area: _15;
+			}
+
+			>:nth-child(16) {
+				grid-area: _16;
+			}
+
+			>:nth-child(17) {
+				grid-area: _17;
+			}
+
+			>:nth-child(18) {
+				grid-area: _18;
+			}
+
+			>:nth-child(19) {
+				grid-area: _19;
+			}
+
+			>:nth-child(20) {
+				grid-area: _20;
+			}
+
+			>:nth-child(21) {
+				grid-area: _21;
+			}
+
+			>:nth-child(22) {
+				grid-area: _22;
+			}
+
+			>:nth-child(23) {
+				grid-area: _23;
+			}
+
+			>:nth-child(24) {
+				grid-area: _24;
+			}
 		}
 	}
 }
