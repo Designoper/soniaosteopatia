@@ -24,6 +24,10 @@ footer {
     ul {
         display: grid;
         gap: 1.5em;
+
+        li {
+            white-space: pre-line;
+        }
     }
 
     @media screen and (541px <=width) {
