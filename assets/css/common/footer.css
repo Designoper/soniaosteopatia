@@ -39,6 +39,7 @@ footer {
     }
 
     @media screen and (1024px <=width) {
+        grid-template-columns: 1fr 1fr 1fr;
         padding: 2em 7.5vw;
 
         ul {
