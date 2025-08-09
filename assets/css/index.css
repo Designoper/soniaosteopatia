@@ -1,5 +1,5 @@
 main {
-    h1+p {
+    h1 {
         color: var(--regular-text);
         font-weight: bold;
     }
@@ -11,23 +11,28 @@ main {
     }
 
     @media screen and (1280px <=width) {
+        h1+p {
+            margin-bottom: 0;
+            align-self: anchor-center;
+            font-size: 2em;
+            color: var(--regular-text);
+            font-weight: bold;
+        }
+
         section {
             &:nth-of-type(1) {
                 grid-template-columns: repeat(6, 1fr);
                 grid-template-areas:
-                    "_1 _1 _1 _4 _4 _4"
-                    "_2 _2 _2 _4 _4 _4"
-                    "_3 _3 _3 _4 _4 _4"
-                    ". . . . . ."
-                    "_5 _5 _5 _5 _5 _5"
-                    "_6 _6 _6 _6 _6 _6";
+                    "_1 _1 _1 . . ."
+                    "_2 _2 _2 _3 _3 _3";
 
-                    img {
-                        height: auto;
-                    }
+                img {
+                    height: auto;
+                    border-radius: 100%;
+                }
 
                 h2 {
-                    text-align: center;
+                    /* text-align: center; */
                     white-space: pre-line;
                 }
 
@@ -37,9 +42,29 @@ main {
                 }
 
                 ul {
-                    grid-template-columns: repeat(2, 1fr);
+                    font-size: 1.25em;
                 }
             }
+
+              &:nth-of-type(2) {
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas:
+                    "_1 _1 _1 _1"
+                    "_2 _3 _4 _5";
+
+                    img {
+                        border-radius: 50%;
+                    }
+            }
+
+            &:nth-of-type(3) {
+                grid-template-areas:
+                    "_1 _1 _1"
+                    "_2 _2 ."
+                    "_3 _3 .";
+            }
+
+
         }
     }
 }

@@ -33,9 +33,9 @@ main {
 		padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
-		justify-self: anchor-left;
-		bottom: anchor(bottom);
-		margin-bottom: 1em;
+		/* right: anchor(right); */
+		top: anchor(top);
+		margin-top: 1em;
 		font-family: 'noto-sans-extralight', sans-serif;
 	}
 
@@ -46,9 +46,10 @@ main {
 		padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
-		right: anchor(right);
-		top: anchor(top);
-		margin-top: 1em;
+
+		/* justify-self: anchor-left; */
+		bottom: anchor(bottom);
+		margin-bottom: 2em;
 		font-family: 'noto-sans-extralight', sans-serif;
 	}
 
@@ -122,11 +123,12 @@ main {
 	@media screen and (1280px <=width) {
 		h1 {
 			padding-inline: 7.5vw;
+			font-size: 4em;
 		}
 
 		h1+p {
 			padding-inline: 7.5vw;
-
+			margin-top: 3em;
 		}
 
 		section {
