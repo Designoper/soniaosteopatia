@@ -40,9 +40,13 @@ main {
 			&:nth-of-type(2) {
 				grid-template-areas:
 					"_1 _1 _1"
-					"_2 _2 ."
-					"_3 _3 ."
-					"_4 _4 .";
+					"_2 _2 _5"
+					"_3 _3 _5"
+					"_4 _4 _5";
+
+				h2 {
+					text-align: left;
+				}
 			}
 		}
 	}
