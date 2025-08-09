@@ -40,6 +40,14 @@ header {
             }
         }
 
+        a img {
+            transition: width 0.35s;
+
+            &:hover {
+                width: 2em;
+            }
+        }
+
         div {
             align-items: center;
             display: flex;
