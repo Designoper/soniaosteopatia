@@ -21,14 +21,12 @@ main {
 
         section {
             &:nth-of-type(1) {
-                grid-template-columns: repeat(6, 1fr);
+                grid-template-columns: repeat(4, 1fr);
                 grid-template-areas:
-                    "_1 _1 _1 . . ."
-                    "_2 _2 _2 _3 _3 _3";
+                    "_1 _1 _2 _2";
 
                 img {
                     height: auto;
-                    border-radius: 100%;
                 }
 
                 h2 {
@@ -47,10 +45,10 @@ main {
             }
 
               &:nth-of-type(2) {
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(5, 1fr);
                 grid-template-areas:
-                    "_1 _1 _1 _1"
-                    "_2 _3 _4 _5";
+                    "_1 _1 _1 _1 _1"
+                    "_2 _3 _4 _5 _6";
 
                     img {
                         border-radius: 50%;
@@ -61,10 +59,16 @@ main {
                 grid-template-areas:
                     "_1 _1 _1"
                     "_2 _2 ."
-                    "_3 _3 .";
+                    "_3 _3 ."
+                    "_4 _4 .";
+
+                p{
+                    &:first-of-type {
+                        font-size: 1.35em;
+                        font-weight: bold;
+                    }
+                }
             }
-
-
         }
     }
 }
