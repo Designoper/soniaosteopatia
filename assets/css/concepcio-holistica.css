@@ -5,15 +5,18 @@ main {
 		border-radius: 50%;
 	}
 
-	@media screen and (1280px <=width) {
+	h3 {
+		white-space: pre-line;
+		font-weight: bold;
+	}
 
-		/* padding-inline: 9vw; */
+	span {
+		font-size: larger;
+	}
+
+	@media screen and (1280px <=width) {
 		h2 {
 			text-align: center;
-		}
-
-		span {
-			font-size: larger;
 		}
 
 		section {
@@ -22,19 +25,10 @@ main {
 					"_1 _1 _1"
 					"_2 _3 _4";
 
-				h3 {
-					white-space: pre-line;
-					font-weight: bold;
-				}
-
 				img {
 					width: 65%;
 					margin: auto;
-					/* height: auto; */
 				}
-
-				/* align-items: center; */
-				/* grid-template-columns: repeat(9, 1fr); */
 			}
 
 			&:nth-of-type(2) {
