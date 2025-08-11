@@ -10,8 +10,10 @@ main {
     }
 
     section {
-        img {
-            border-radius: 2em;
+        &:nth-of-type(2) {
+            img {
+                border-radius: 50%;
+            }
         }
     }
 
@@ -20,7 +22,6 @@ main {
             margin-bottom: 0;
             align-self: anchor-center;
             font-size: 2em;
-
         }
 
         section {
