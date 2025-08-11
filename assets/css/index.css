@@ -4,6 +4,11 @@ main {
         font-weight: bold;
     }
 
+    h1+p {
+        color: var(--regular-text);
+        font-weight: bold;
+    }
+
     section {
         img {
             border-radius: 2em;
@@ -15,8 +20,7 @@ main {
             margin-bottom: 0;
             align-self: anchor-center;
             font-size: 2em;
-            color: var(--regular-text);
-            font-weight: bold;
+
         }
 
         section {
@@ -32,7 +36,6 @@ main {
                 }
 
                 h2 {
-                    /* text-align: center; */
                     white-space: pre-line;
                 }
 
@@ -48,7 +51,6 @@ main {
 
             &:nth-of-type(2) {
                 margin-bottom: 2em;
-
                 grid-template-columns: repeat(5, 1fr);
                 grid-template-areas:
                     "_1 _1 _1 _1 _1"
@@ -73,15 +75,6 @@ main {
                     }
                 }
             }
-
-            /* &:nth-of-type(4) {
-                color: white;
-                padding-block: 2em;
-                background-color: var(--regular-text);
-                grid-template-areas:
-                    "_1 _1 _1"
-                    "_2 _2 _2";
-            } */
         }
     }
 }
