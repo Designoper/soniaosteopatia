@@ -22,35 +22,6 @@ main {
 	gap: 5rem 0;
 	padding-bottom: 7rem;
 
-	>img {
-		anchor-name: --banner-img;
-		height: 375px;
-	}
-
-	h1 {
-		white-space: pre-line;
-		text-align: left;
-		padding-inline: 10vw;
-		position: absolute;
-		position-anchor: --banner-img;
-		top: anchor(top);
-		margin-top: 1em;
-		font-family: 'noto-sans-extralight', sans-serif;
-	}
-
-	h1+p {
-		white-space: pre-line;
-		text-align: center;
-		font-size: 1.75em;
-		padding-inline: 10vw;
-		position: absolute;
-		position-anchor: --banner-img;
-
-		bottom: anchor(bottom);
-		margin-bottom: 2em;
-		font-family: 'noto-sans-extralight', sans-serif;
-	}
-
 	div {
 		display: grid;
 		gap: inherit;
@@ -64,11 +35,6 @@ main {
 	}
 
 	figure {
-		display: grid;
-		gap: 1rem 0;
-	}
-
-	hgroup {
 		display: grid;
 		gap: 1rem 0;
 	}
