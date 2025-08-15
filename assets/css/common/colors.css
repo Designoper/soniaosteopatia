@@ -14,11 +14,6 @@ html {
 	outline: var(--regular-text) solid 4px;
 }
 
-h1,
-h1+p {
-	color: var(--secondary-bg);
-}
-
 :is(details:has([aria-current="page"]) summary, [aria-current="page"]) {
 	color: var(--secondary-bg);
 	background-color: var(--background-text);

@@ -2,9 +2,7 @@ main {
 	padding-top: 4em;
 
 	h1 {
-		color: var(--regular-text);
 		position: static;
-		margin-bottom: 0;
 		text-align: center;
 	}
 
