@@ -33,7 +33,6 @@ main {
 		padding-inline: 10vw;
 		position: absolute;
 		position-anchor: --banner-img;
-		/* right: anchor(right); */
 		top: anchor(top);
 		margin-top: 1em;
 		font-family: 'noto-sans-extralight', sans-serif;
@@ -47,7 +46,6 @@ main {
 		position: absolute;
 		position-anchor: --banner-img;
 
-		/* justify-self: anchor-left; */
 		bottom: anchor(bottom);
 		margin-bottom: 2em;
 		font-family: 'noto-sans-extralight', sans-serif;
