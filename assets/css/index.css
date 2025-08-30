@@ -1,7 +1,6 @@
 main {
-    >img {
+    >picture img {
         anchor-name: --banner-img;
-        height: 375px;
     }
 
     h1 {
