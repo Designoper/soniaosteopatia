@@ -4,6 +4,7 @@ main {
     }
 
     h1 {
+        /* font-size: 2rem; */
         white-space: pre-line;
         text-align: left;
         padding-inline: 10vw;
@@ -12,6 +13,12 @@ main {
         top: anchor(top);
         margin-top: 1em;
         font-family: 'noto-sans-extralight', sans-serif;
+        max-width: 380px;
+
+        span {
+            font-size: smaller;
+            /* white-space: pre-line; */
+        }
     }
 
     h1+p {
@@ -25,6 +32,7 @@ main {
         bottom: anchor(bottom);
         margin-bottom: 2em;
         font-family: 'noto-sans-extralight', sans-serif;
+        display: none;
     }
 
     section {
@@ -35,11 +43,18 @@ main {
         }
     }
 
+    @media screen and (800px <=width) {
+        h1 {
+            max-width: none;
+        }
+    }
+
     @media screen and (1280px <=width) {
         h1+p {
             margin-bottom: 0;
             align-self: anchor-center;
             font-size: 2em;
+            display: initial;
         }
 
         section {
